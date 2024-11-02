@@ -1,0 +1,11 @@
+{
+  "name": "tg-personal-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pyromatic-x/tg-personal-bot.git",
+  "author": "pyromatic-x <juseedboss@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
