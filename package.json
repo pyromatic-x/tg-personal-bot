@@ -5,7 +5,19 @@
   "repository": "https://github.com/pyromatic-x/tg-personal-bot.git",
   "author": "pyromatic-x <juseedboss@yandex.ru>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
   "dependencies": {
-    "node-telegram-bot-api": "^0.66.0"
+    "@types/node-schedule": "^2.1.7",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.10.0",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.7"
   }
 }
