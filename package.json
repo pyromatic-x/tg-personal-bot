@@ -1,6 +1,6 @@
 {
   "name": "tg-personal-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/pyromatic-x/tg-personal-bot.git",
   "author": "pyromatic-x <juseedboss@yandex.ru>",
