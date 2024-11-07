@@ -29,7 +29,7 @@ class BotClient {
 
         const getStatus = (statusCode: number) => (statusCode === 200 ? "OK" : statusCode);
 
-        const responseMessage = `portfolio: ${getStatus(portfolio.status)}\media: ${getStatus(
+        const responseMessage = `portfolio: ${getStatus(portfolio.status)}\nmedia: ${getStatus(
           media.status
         )}\nspotify: ${getStatus(spotify.status)}\nspotify-api: ${getStatus(spotifyApi.status)}`;
 
