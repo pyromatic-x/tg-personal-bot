@@ -29,9 +29,9 @@ class BotClient {
 
         const getStatus = (statusCode: number) => (statusCode === 200 ? "OK" : statusCode);
 
-        const responseMessage = `portfolio: ${getStatus(portfolio.status)}\nspotify: ${getStatus(
-          spotify.status
-        )}\nspotify-api: ${getStatus(spotifyApi.status)}`;
+        const responseMessage = `portfolio: ${getStatus(portfolio.status)}\media: ${getStatus(
+          media.status
+        )}\nspotify: ${getStatus(spotify.status)}\nspotify-api: ${getStatus(spotifyApi.status)}`;
 
         await this.bot.sendMessage(message.chat.id, responseMessage);
       }
