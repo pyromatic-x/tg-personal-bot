@@ -6,6 +6,7 @@
   "author": "pyromatic-x <juseedboss@yandex.ru>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
