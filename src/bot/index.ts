@@ -17,6 +17,7 @@ class BotClient {
     this.bot.on("text", async (message) => {
       if (message.text === "/check_projects") {
         const portfolio = await fetch("https://pyromatic.ru", { method: "HEAD" });
+        const media = await fetch("https://media.pyromatic.ru", { method: "HEAD" });
         const spotify = await fetch("https://spotify.pyromatic.ru", { method: "HEAD" });
         const spotifyApi = await fetch("https://api.spotify.pyromatic.ru/", {
           method: "HEAD",
